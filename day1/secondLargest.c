@@ -24,8 +24,8 @@ int main()
 		}
 	}
 
-	int fl = 0;
-	int sl = 0;
+	int fl = INT_MIN;
+	int sl = INT_MIN;
 	int fs = INT_MAX;
 	int ss = INT_MAX;
 
@@ -52,5 +52,13 @@ int main()
 		}
 	}
 
-	printf("Second Largest Element is: %d\n Second Smallest Element is: %d", sl, ss);
+	if (sl == INT_MIN)
+		printf("Second Largest Element does not exist\n");
+	else
+		printf("Second Largest Element is: %d\n", sl);
+
+	if (ss == INT_MAX)
+		printf("Second Smallest Element does not exist\n");
+	else
+		printf("Second Smallest Element is: %d\n", ss);
 }

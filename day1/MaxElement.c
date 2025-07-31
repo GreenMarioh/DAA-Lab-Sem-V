@@ -8,7 +8,7 @@ int main()
     printf("Enter the number of elements you want to read from the file\n");
     scanf("%d", &n);
     FILE *ptr;
-    ptr = fopen("efg.txt", "r");
+    ptr = fopen("elements.txt", "r");
     if (ptr == NULL)
     {
         printf("Error in file reading\n");
