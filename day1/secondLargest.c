@@ -9,7 +9,7 @@ int main()
 	fp = fopen("abc.txt", "r");
 	if (fp == NULL)
 	{
-		printf("Error while readint the file\n");
+		printf("Error while reading the file\n");
 		return 1;
 	}
 	fscanf(fp, "%d", &n);

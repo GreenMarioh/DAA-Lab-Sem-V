@@ -27,7 +27,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    printf("Enter value of p2\n");
+    printf("Enter value to rotate\n");
     int p2;
     scanf("%d", &p2);
     if (p2 > n || p2 <= 0)
