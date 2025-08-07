@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 void getBinary(int num, char *bin, int *idx)
-{
+{ 
     if (num == 0)
         return;
     getBinary(num >> 1, bin, idx);
